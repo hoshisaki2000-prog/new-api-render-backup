@@ -11,4 +11,5 @@ COPY backup-loop.py /backup-loop.py
 RUN chmod +x /start-render.sh /backup-loop.py
 
 WORKDIR /data
+ENTRYPOINT []
 CMD ["/start-render.sh"]
